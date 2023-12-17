@@ -1,0 +1,60 @@
+
+/* ======================================
+    call_to_action css
+========================================= */
+.pricing_wrap {
+    background: #1287ff;
+    position: relative;
+  
+    &::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: #246efb url(../image/subscription-bg.png) no-repeat scroll bottom center / cover;
+        opacity: .1;
+    }
+    .pricing_content {
+        padding: 150px 0 110px; 
+       h2 {
+        color: #ffffff;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 700;
+        font-family: "Quicksand", sans-serif;
+        padding-bottom: 24px;
+       }
+       p.pricing_pra {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        font-family: "Quicksand", sans-serif;
+        padding-bottom: 55px;
+
+       }
+       a.pricing_btn {
+        color: #246efb;
+        background: #fff;
+        border: 1px solid #fff;
+        display: inline-block;
+        padding: 25px 122px;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 0 auto;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.5s;
+        font-family: "Quicksand", sans-serif;
+        &:hover {
+            color: #ffffff;
+            background: transparent;
+            border-color: #fff;
+        }
+
+       }
+    }
+}

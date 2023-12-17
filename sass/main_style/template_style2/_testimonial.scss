@@ -1,0 +1,99 @@
+/* ======================================
+    testimonial css
+========================================= */
+.testimonial-wrap {
+    padding: 109px 0 104px;
+    background: #fff;
+    .testimonal-heading {
+        h3 {
+            font-size: 36px;
+            line-height: 45px;
+            color: #1a264a;
+            font-weight: 700;
+            text-transform: capitalize;
+            font-family: "Quicksand", sans-serif;
+            margin-bottom: 24px;
+        }
+        p {
+            color: #747474;
+            font-size: 16px;
+            line-height: 28px;
+            padding-bottom: 78px;
+            font-family: "Quicksand", sans-serif;
+            font-weight: 400;
+            max-width: 615px;
+            margin: 0 auto;
+        }
+    }
+    .single-testimonial {
+        position: relative;
+        padding: 50px 48px 45px;
+        background: #fff;
+        box-shadow: 0px 16px 32px 0px rgba(26, 38, 74, 0.09);
+        margin: 30px 0 72px;
+        .single-item {
+            i {
+                font-size: 48px;
+                color: #246efb;
+                position: absolute;
+                left: 42px;
+                top: -27px
+            }
+            p {
+                font-size: 17px;
+                color: #585e68;
+                line-height: 28px;
+                font-weight: 400;
+                font-family: "Quicksand", sans-serif;
+                padding-bottom: 26px;
+            }
+            .testimonial_slide.media {
+                .media-left {
+                    img {
+                        max-width: 50px;
+                        border-radius: 50%;
+                    }
+                }
+                .media-right {
+                    margin-left: 25px;
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 32px;
+                        color: #000;
+                        font-family: "Quicksand", sans-serif;
+                    }
+                    span.testimonial_info{    
+                        color: #585e68;
+                        font-size: 14px;
+                        display: block;
+                        font-family: "Quicksand", sans-serif;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+    }
+    .slick-dots li {
+        border: 1px solid #246efb;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        &.slick-active {
+            background: #246efb;
+        }
+
+    }
+    .slick-dots li button {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #246efb;
+        display: none;
+
+    }
+    .slick-slide {
+        outline: none;
+    }
+}

@@ -1,0 +1,99 @@
+/* ======================================
+    team css
+========================================= */
+.team_wrap {
+background: #f8f9fc;
+padding: 110px 0;
+.team-heading {
+    h3 {
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: 700;
+        font-family: "Quicksand", sans-serif;
+        text-transform: capitalize;
+        padding-bottom: 11px;
+    }
+    p {
+        color: #585e68;
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 72px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+.single_team {
+    text-align: center;
+    transition: all 0.5s;
+    .team_img {
+        background: #f2f4f9;
+        img {
+            
+        }
+    }
+    .team_info {
+        background: #fefeff;
+        padding: 35px 45px 30px;
+        transition: all 0.5s;
+        h5 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            color: #666;
+            font-family: "Quicksand", serif, sans-serif;
+            text-transform: capitalize;
+            padding-bottom: 0;
+        }
+        &span.team_pos {
+            font-family: "Quicksand", serif, sans-serif;
+            display: block;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            padding-bottom: 10px;
+            color: #999;
+        }
+        p {
+            color: #999;
+            font-size: 16px;
+            line-height: 28px;
+            margin-bottom: 35px;
+            font-family: "Quicksand", serif, sans-serif;
+
+        }
+         ul {
+        //     padding-top: 10px;
+            li {
+                display: inline-block;
+                a {
+                    display: inline-block;
+                    width: 34px;
+                    height: 34px;
+                    text-align: center;
+                    line-height: 34px;
+                    font-size: 16px;
+                    border-radius: 50%;
+                    color: #111;
+                    transition: all 0.5s;
+                    &:hover {
+                        background: #1287ff;
+                        color: #fff;
+                        border-radius: 50%;
+                    }
+                    i {
+
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        box-shadow: 0px 16px 32px 0px rgba(26, 38, 74, 0.09);
+    }
+}
+}
+
+

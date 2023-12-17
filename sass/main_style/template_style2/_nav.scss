@@ -1,0 +1,111 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+    nav {
+        &.navbar {
+            padding: 0;
+            &.Main_nav {
+
+            }
+            a {
+
+            }
+            .navbar-toggler {
+                &[aria-expanded="true"] i {
+                    display: none;
+                    & + i {
+                        display: inline-block;
+                    } 
+                }
+                &:focus {
+                    outline: none;
+                }
+                i {
+                    font-size: 34px;
+                    line-height: 43px;
+                    display: inline-block;
+                    & + i {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+        .Navbar-custom {
+           ul {
+                li {
+                    display: inline-block;
+                    margin-right: 48px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        color: #1a264a;
+                        font-size:14px ;
+                        line-height:30px;
+                        font-weight: 500;
+                        text-transform: capitalize;
+                        display: inline-block;
+                        transition: all 0.5s;
+                        font-family: 'Quicksand', sans-serif;
+                        position: relative;
+                        &:hover::before {
+                            opacity: 1;
+                            visibility: visible;
+                            width: 100%;
+                            right: auto;
+                            left: 0;
+                            bottom: 0;
+                        }
+                        &::before {
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            height: 2px;
+                            width: 0;
+                            background: #1a264a;
+                            transition: all 0.5s;
+                            content: "";
+                            opacity: 0;
+                            visibility: hidden;
+
+                        }
+                        &.nav-link {
+                            padding-right: 0;
+                            padding-left: 0;
+
+                        }
+                    }
+                }
+            }
+        }
+        .get_btn {
+            margin-left: 48px;
+            a {
+                display: inline-block;
+                color: #246efb;
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 500;
+                padding: 9px 37px;
+                text-decoration: none;
+                border-radius: 5px;
+                text-transform: capitalize;
+                transition: all 0.5s;
+                font-family: 'Quicksand', sans-serif;
+                border: 2px solid #1287ff;
+                &:hover {
+                    color: #fff;
+                    background: #1287ff;
+                }
+            }
+        }
+
+    }
+
+
+}

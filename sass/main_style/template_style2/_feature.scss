@@ -1,0 +1,53 @@
+ /* ======================================
+    feature css
+========================================= */
+.features_wrap {
+    padding: 110PX 0 70PX;
+    .features_content {
+        h3 {
+            font-size: 36PX;
+            font-weight: 700;
+            line-height: 45px;
+            color: #585e68;
+            text-transform: capitalize;
+            margin-bottom: 29px;
+
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0 auto 70px;
+            max-width: 615px;
+
+        }
+    }
+    .single_features {
+        margin-bottom: 72px;
+        .service_left {
+            padding: 0 30px 0 20px;
+            img {
+
+            }
+        }
+        .service_right {
+            h4 {
+                color: #404040;
+                font-size: 18px;
+                font-family: "Quicksand", sans-serif;
+                padding-bottom: 20px;
+                font-weight: 500;
+                text-transform: capitalize;
+            }
+            p {
+                color: #585e68;
+                font-size: 16px;
+                line-height: 28px;
+                font-weight: 400;
+                font-family: "Quicksand", sans-serif;
+                margin-bottom: 20px;
+
+            }
+        }
+    }
+}
